@@ -12,9 +12,10 @@ body {
   margin: 0;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(-10deg, #23032b, #100122, #0b0322, #100122, #23032b);
-  background-size: 400% 400%;
-  animation: gradientBG 7s cubic-bezier(.65, .05, .36, 1) infinite;
+  background: linear-gradient(#1d032b, #100122, #010126, #100122, #1d032b);
+  /* background: linear-gradient(#020111, #040117, #010126, #040117, #020111); */
+  background-size: 800% 800%;
+  animation: gradientBG 9s cubic-bezier(.65, .05, .36, 1) infinite;
 }
 
 @keyframes gradientBG {
