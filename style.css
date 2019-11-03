@@ -72,9 +72,8 @@ p {
 /* COMPATIBILITY */
 @media (max-width: 641px){
   .header {
-    padding-top: 5px;
     font-size: 75px;
-    padding-bottom: 9px;
+    padding-bottom: 5px;
   }
 
   p {
