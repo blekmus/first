@@ -4,20 +4,6 @@
   overflow: hidden;
 } */
 
-html { 
-  overflow-x: hidden; 
-}
-
-body {
-  margin: 0;
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(#1d032b, #100122, #010126, #100122, #1d032b);
-  /* background: linear-gradient(#020111, #040117, #010126, #040117, #020111); */
-  background-size: 800% 800%;
-  animation: gradientBG 9s cubic-bezier(.65, .05, .36, 1) infinite;
-}
-
 @keyframes gradientBG {
   0% {
     background-position: 0% 50%;
@@ -32,7 +18,41 @@ body {
   }
 }
 
+/* @keyframes headercolor {
+  from {
+    background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(90%, #ff5733));
+    background: -webkit-linear-gradient(left, #c70039, #ff5733 90%);
+    background: -o-linear-gradient(left, #c70039, #ff5733 90%);
+    background: linear-gradient(to right, #c70039, #ff5733 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  to {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+} */
 
+/* 
+https://jsfiddle.net/JjHNG/35/ 
+https: //www.w3schools.com/css/css3_animations.asp
+https: //www.w3schools.com/cssref/sel_hover.asp
+*/
+
+html { 
+  overflow-x: hidden; 
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#1d032b, #100122, #010126, #100122, #1d032b);
+  /* background: linear-gradient(#020111, #040117, #010126, #040117, #020111); */
+  background-size: 800% 800%;
+  animation: gradientBG 9s cubic-bezier(.65, .05, .36, 1) infinite;
+}
 
 .header {
   background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(90%, #ff5733));
@@ -47,7 +67,17 @@ body {
   font-size: 65px;
   letter-spacing: 7px;
   margin-top: 30px;
+  margin-left: 33%;
+  margin-right: 33%;
 }
+
+.head-link {
+  text-decoration: none;
+}
+/* 
+.header:hover {
+  animation: headercolor cubic-bezier(.65, .05, .36, 1);
+} */
 
 
 p {
@@ -88,6 +118,8 @@ p {
     font-size: 75px;
     padding-bottom: 35px;
     padding-top: 0px;
+    margin-left: initial;
+    margin-right: initial;
   }
 
   p {
@@ -101,8 +133,8 @@ p {
   }
 
   .line {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 18%;
+    margin-right: 18%;
   }
 }
 
@@ -126,7 +158,7 @@ p {
   }
 
   .line {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 17%;
+    margin-right: 17%;
   }
 }
