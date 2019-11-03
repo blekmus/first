@@ -1,0 +1,102 @@
+/* html {
+  height: 100%;
+  background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 90%);
+  overflow: hidden;
+} */
+
+html { 
+  overflow-x: hidden; 
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-10deg, #23032b, #100122, #030322, #100122, #23032b);
+  background-size: 400% 400%;
+  animation: gradientBG 7s cubic-bezier(.65, .05, .36, 1) infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 50% 100%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.header {
+  background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(90%, #ff5733));
+  background: -webkit-linear-gradient(left, #c70039, #ff5733 90%);
+  background: -o-linear-gradient(left, #c70039, #ff5733 90%);
+  background: linear-gradient(to right, #c70039, #ff5733 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 65px;
+  letter-spacing: 7px;
+  padding-top: 25px;
+}
+
+
+p {
+  color: #e5e5e5;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  margin: 0;
+  text-align: justify;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom:50px;
+}
+
+.link {
+  color: #e5e5e5;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+
+/* COMPATIBILITY */
+@media (max-width: 641px){
+  .header {
+    padding-top: 5px;
+    font-size: 70px;
+    padding-bottom: 9px;
+  }
+
+  p {
+    font-size: 16;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .link {
+    font-size: 16;
+  }
+}
+
+@media (min-width: 1021px) {
+  p {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media (max-width: 1020px) and (min-width: 642px) {
+  p {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
