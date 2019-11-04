@@ -18,27 +18,6 @@
   }
 }
 
-/* @keyframes headercolor {
-  from {
-    background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(90%, #ff5733));
-    background: -webkit-linear-gradient(left, #c70039, #ff5733 90%);
-    background: -o-linear-gradient(left, #c70039, #ff5733 90%);
-    background: linear-gradient(to right, #c70039, #ff5733 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  to {
-    background: white;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-} */
-
-/* 
-https://jsfiddle.net/JjHNG/35/ 
-https: //www.w3schools.com/css/css3_animations.asp
-https: //www.w3schools.com/cssref/sel_hover.asp
-*/
 
 html { 
   overflow-x: hidden; 
@@ -55,35 +34,17 @@ body {
 }
 
 .header {
-  background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(90%, #ff5733));
-  background: -webkit-linear-gradient(left, #c70039, #ff5733 90%);
-  background: -o-linear-gradient(left, #c70039, #ff5733 90%);
-  background: linear-gradient(to right, #c70039, #ff5733 90%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 65px;
   letter-spacing: 7px;
   margin-top: 30px;
-  margin-left: 33%;
-  margin-right: 33%;
 }
-
-.head-link {
-  text-decoration: none;
-}
-/* 
-.header:hover {
-  animation: headercolor cubic-bezier(.65, .05, .36, 1);
-} */
-
 
 p {
   color: #e5e5e5;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   margin: 0;
   text-align: justify;
   font-weight: 400;
@@ -107,6 +68,19 @@ p {
   border-radius: 5px;
 }
 
+.head-small {
+  background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(5%, #ff5733));
+  background: -webkit-linear-gradient(left, #c70039, #ff5733 5%);
+  background: -o-linear-gradient(left, #c70039, #ff5733 5%);
+  background: linear-gradient(to right, #c70039, #ff5733 5%);
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 7px;
+  font-size: 30px;
+}
+
 .footer {
   padding-bottom: 50px;
 }
@@ -115,11 +89,16 @@ p {
 /* COMPATIBILITY */
 @media (max-width: 641px){
   .header {
+    background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(80%, #ff5733));
+    background: -webkit-linear-gradient(left, #c70039, #ff5733 80%);
+    background: -o-linear-gradient(left, #c70039, #ff5733 80%);
+    background: linear-gradient(to right, #c70039, #ff5733 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 75px;
     padding-bottom: 35px;
     padding-top: 0px;
-    margin-left: initial;
-    margin-right: initial;
+    text-align: center;
   }
 
   p {
@@ -136,29 +115,69 @@ p {
     margin-left: 18%;
     margin-right: 18%;
   }
+
+  .head-small {
+    padding-left: 40px;
+  }
+
+  .header-note {
+    background: -webkit-gradient(linear, left top, right top, from(#a5002f), color-stop(80%, #b92200));
+    background: -webkit-linear-gradient(left, #a5002f, #b92200 80%);
+    background: -o-linear-gradient(left, #a5002f, #b92200 80%);
+    background: linear-gradient(to right, #a5002f, #b92200 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 400;
+  }
 }
 
 
 @media (min-width: 1021px) {
   p {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 160px;
+    padding-right: 220px;
   }
 
   .line {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 200px;
+    margin-right: 280px;
+  }
+
+  .head-small {
+    padding-left: 160px;
   }
 }
 
 @media (max-width: 1020px) and (min-width: 642px) {
   p {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 60px;
+    padding-right: 90px;
   }
 
   .line {
     margin-left: 17%;
     margin-right: 17%;
+  }
+
+  .head-small {
+    padding-left: 60px;
+  }
+}
+
+@media (min-width: 642px) {
+  .header {
+    background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(40%, #ff5733));
+    background: -webkit-linear-gradient(left, #c70039, #ff5733 40%);
+    background: -o-linear-gradient(left, #c70039, #ff5733 40%);
+    background: linear-gradient(to right, #c70039, #ff5733 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    font-size: 100px;
+    padding-left: 40px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+
   }
 }
