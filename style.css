@@ -58,11 +58,9 @@ body {
   font-size: 100px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  padding-top: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 200px;
-  padding-left: 40px;
+  padding: 0px 10px 200px 40px;
 }
 
 
@@ -201,7 +199,7 @@ p {
   }
 
   .line {
-    margin-left: 150px;
+    margin-left: 163px;
     margin-right: 70%;
   }
 
@@ -221,7 +219,7 @@ p {
   }
 
   .line {
-    margin-left: 55px;
+    margin-left: 58px;
     margin-right: 70%;
   }
 
