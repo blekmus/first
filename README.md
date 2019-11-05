@@ -1,3 +1,3 @@
 # fire-walker.github.io
-Blah, BLah, Blah
+Blah, Blah, Blah
 this is a site
