@@ -64,12 +64,11 @@ body {
 
 
 p {
-  color: #e5e5e5;
+  color: #ffffffd1;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   margin: 0;
   text-align: justify;
-  font-weight: 400;
 }
 
 .link {
@@ -90,6 +89,10 @@ p {
   margin-top: 90px;
 }
 
+.line-first {
+  margin-top: 10px;
+}
+
 .head-small {
   background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(5%, #ff5733));
   background: -webkit-linear-gradient(left, #c70039, #ff5733 5%);
@@ -100,9 +103,9 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 7px;
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .lower-body {
@@ -144,7 +147,7 @@ p {
 
   .line {
     margin-left: 38px;
-    margin-right: 18%;
+    margin-right: 25%;
   }
 
   .head-small {
@@ -152,7 +155,7 @@ p {
   }
 
   .header-note {
-    background: white;
+    background: #979797;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 25px;
@@ -215,3 +218,4 @@ p {
 
   }
 }
+
