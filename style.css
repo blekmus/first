@@ -41,7 +41,27 @@ body {
   font-size: 65px;
   letter-spacing: 7px;
   margin-top: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
+
+.header-note {
+  background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(40%, #ff5733));
+  background: -webkit-linear-gradient(left, #c70039, #ff5733 40%);
+  background: -o-linear-gradient(left, #c70039, #ff5733 40%);
+  background: linear-gradient(to right, #c70039, #ff5733 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-size: 100px;
+  padding-left: 40px;
+  padding-bottom: 200px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
 
 p {
   color: #e5e5e5;
@@ -68,7 +88,6 @@ p {
   background: linear-gradient(to right, #c70039, #ff5733 90%);
   border-radius: 5px;
   margin-top: 90px;
-  margin-bottom: 25px;
 }
 
 .head-small {
@@ -83,8 +102,8 @@ p {
   letter-spacing: 7px;
   font-size: 30px;
   margin-top: 0px;
+  margin-bottom: 25px;
 }
-
 
 .lower-body {
   background: -webkit-gradient(linear, #07061e, #090524, #010126, #040117, #020111);
@@ -124,7 +143,7 @@ p {
   }
 
   .line {
-    margin-left: 18%;
+    margin-left: 38px;
     margin-right: 18%;
   }
 
@@ -133,14 +152,18 @@ p {
   }
 
   .header-note {
-    background: -webkit-gradient(linear, left top, right top, from(#a5002f), color-stop(80%, #b92200));
-    background: -webkit-linear-gradient(left, #a5002f, #b92200 80%);
-    background: -o-linear-gradient(left, #a5002f, #b92200 80%);
-    background: linear-gradient(to right, #a5002f, #b92200 80%);
+    background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 400;
+    padding-left: 4%;
+    padding-right: 4%;
+    line-height: none;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-bottom: 50px;
+
   }
 }
 
@@ -189,7 +212,6 @@ p {
     font-size: 100px;
     padding-left: 40px;
     padding-top: 100px;
-    padding-bottom: 200px;
 
   }
 }
