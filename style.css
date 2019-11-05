@@ -6,15 +6,15 @@
 
 @keyframes gradientBG {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 25%;
   }
 
   50% {
-    background-position: 50% 100%;
+    background-position: 25% 50%;
   }
 
   100% {
-    background-position: 0% 50%;
+    background-position: 0% 20%;
   }
 }
 
@@ -27,8 +27,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(#1d032b, #100122, #010126, #100122, #1d032b);
-  /* background: linear-gradient(#020111, #040117, #010126, #040117, #020111); */
+  background: linear-gradient(-45deg, #1d032b, #100122, #010126, #100122, #1d032b);
   background-size: 800% 800%;
   animation: gradientBG 9s cubic-bezier(.65, .05, .36, 1) infinite;
 }
@@ -60,12 +59,13 @@ p {
 .line {
   border: 0;
   height: 5px;
-  margin: 4rem 0;
   background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(90%, #ff5733));
   background: -webkit-linear-gradient(left, #c70039, #ff5733 90%);
   background: -o-linear-gradient(left, #c70039, #ff5733 90%);
   background: linear-gradient(to right, #c70039, #ff5733 90%);
   border-radius: 5px;
+  margin-top: 90px;
+  margin-bottom: 25px;
 }
 
 .head-small {
@@ -79,11 +79,17 @@ p {
   -webkit-text-fill-color: transparent;
   letter-spacing: 7px;
   font-size: 30px;
+  margin-top: 0px;
 }
 
-.footer {
+
+.lower-body {
+  background: linear-gradient(#020111, #040117, #010126, #040117, #020111);
+  padding-top: 30px;
   padding-bottom: 50px;
+  background-size: 800% 800%;
 }
+
 
 
 /* COMPATIBILITY */
@@ -102,13 +108,13 @@ p {
   }
 
   p {
-    font-size: 16;
+    font-size: 19px;
     padding-left: 40px;
     padding-right: 40px;
   }
 
   .link {
-    font-size: 16;
+    font-size: 19px;
   }
 
   .line {
@@ -140,8 +146,8 @@ p {
   }
 
   .line {
-    margin-left: 200px;
-    margin-right: 280px;
+    margin-left: 150px;
+    margin-right: 70%;
   }
 
   .head-small {
@@ -156,8 +162,8 @@ p {
   }
 
   .line {
-    margin-left: 17%;
-    margin-right: 17%;
+    margin-left: 55px;
+    margin-right: 70%;
   }
 
   .head-small {
