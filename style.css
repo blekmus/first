@@ -25,8 +25,6 @@ html {
 
 body {
   margin: 0;
-  width: 100%;
-  height: 100vh;
 }
 
 .head-head {
@@ -36,8 +34,7 @@ body {
   background: -o-linear-gradient(-45deg, #000059, #0c0634, #1b0736, #2e0444, #43047c);
   background-size: 300% 300%;
   animation: gradientBG 7s cubic-bezier(.65, .05, .36, 1) infinite;
-  height: 100vh;
-  padding-bottom: 280px;
+  padding-bottom: 5px;
 }
 
 .header {
@@ -59,13 +56,13 @@ body {
   -webkit-text-fill-color: transparent;
   text-align: left;
   font-size: 100px;
-  padding-left: 40px;
-  padding-bottom: 250px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   padding-top: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-bottom: 200px;
+  padding-left: 40px;
 }
 
 
@@ -248,8 +245,7 @@ p {
     text-align: left;
     font-size: 100px;
     padding-left: 40px;
-    padding-top: 150px;
-
+    padding-top: 10vw;
   }
 }
 
