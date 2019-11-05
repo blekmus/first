@@ -28,6 +28,9 @@ body {
   width: 100%;
   height: 100vh;
   background: linear-gradient(-45deg, #1d032b, #100122, #010126, #100122, #1d032b);
+  background: -webkit-gradient(linear, -45deg, #1d032b, #100122, #010126, #100122, #1d032b);
+  background: -webkit-linear-gradient(-45deg, #1d032b, #100122, #010126, #100122, #1d032b);
+  background: -o-linear-gradient(-45deg, #1d032b, #100122, #010126, #100122, #1d032b);
   background-size: 800% 800%;
   animation: gradientBG 9s cubic-bezier(.65, .05, .36, 1) infinite;
 }
@@ -84,7 +87,10 @@ p {
 
 
 .lower-body {
-  background: linear-gradient(#020111, #040117, #010126, #040117, #020111);
+  background: -webkit-gradient(linear, #07061e, #090524, #010126, #040117, #020111);
+  background: -webkit-linear-gradient(#07061e, #090524, #010126, #040117, #020111);
+  background: -o-linear-gradient(#07061e, #090524, #010126, #040117, #020111);
+  background: linear-gradient(#07061e, #090524, #010126, #040117, #020111);
   padding-top: 30px;
   padding-bottom: 50px;
   background-size: 800% 800%;
