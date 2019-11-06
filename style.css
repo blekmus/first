@@ -137,7 +137,7 @@ p {
 
 
 /* COMPATIBILITY */
-@media (max-width: 641px){
+@media (max-width: 641px) {
   .header {
     background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(80%, #ff5733));
     background: -webkit-linear-gradient(left, #c70039, #ff5733 80%);
@@ -152,9 +152,10 @@ p {
   }
 
   p {
-    font-size: 19px;
+    font-size: 18px;
     padding-left: 40px;
     padding-right: 40px;
+    line-height: 26px;
   }
 
   .link {
@@ -190,11 +191,26 @@ p {
   }
 }
 
+@media (min-width: 642px) {
+  .header {
+    background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(40%, #ff5733));
+    background: -webkit-linear-gradient(left, #c70039, #ff5733 40%);
+    background: -o-linear-gradient(left, #c70039, #ff5733 40%);
+    background: linear-gradient(to right, #c70039, #ff5733 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    font-size: 100px;
+    padding-left: 40px;
+    padding-top: 10vw;
+  }
+}
 
 @media (min-width: 1021px) {
   p {
     padding-left: 160px;
     padding-right: 220px;
+    line-height: 31px;
   }
 
   .line {
@@ -215,6 +231,7 @@ p {
   p {
     padding-left: 60px;
     padding-right: 90px;
+    line-height: 29px;
   }
 
   .line {
@@ -231,18 +248,22 @@ p {
   }
 }
 
-@media (min-width: 642px) {
-  .header {
-    background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(40%, #ff5733));
-    background: -webkit-linear-gradient(left, #c70039, #ff5733 40%);
-    background: -o-linear-gradient(left, #c70039, #ff5733 40%);
-    background: linear-gradient(to right, #c70039, #ff5733 40%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: left;
-    font-size: 100px;
-    padding-left: 40px;
-    padding-top: 10vw;
+@media (max-width: 420px) {
+  p {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+
+  .line {
+    margin-left: 21px;
+    margin-right: 26%;
+  }
+
+  .head-small {
+    padding-left: 21px;
+  }
+
+  .head-small-desc {
+    padding-left: 21px;
   }
 }
-
