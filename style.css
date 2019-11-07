@@ -84,8 +84,8 @@ body {
     hsl(294.86, 68.63%, 20%) 85.2%,
     hsl(296.57, 68.63%, 20%) 92.4%,
     hsl(297.43, 68.63%, 20%) 100%);
-  background-size: 200% 200%;
-  animation: gradientBG 10s cubic-bezier(.55, .01, .43, .99) infinite;
+  background-size: 250% 250%;
+  animation: gradientBG 7s cubic-bezier(.55, .01, .43, .99) infinite;
   padding-bottom: 5px;
 }
 
