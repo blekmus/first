@@ -30,60 +30,59 @@ body {
 
 .head-head {
   background: linear-gradient(to bottom right,
-    hsl(239.25, 71.43%, 21.96%) 0%,
-    hsl(240, 71.43%, 21.96%) 7.4%,
-    hsl(242.25, 71.43%, 21.96%) 14.5%,
-    hsl(245.32, 71.17%, 21.76%) 21.2%,
-    hsl(249.23, 70.91%, 21.57%) 27.8%,
-    hsl(254.81, 70.64%, 21.37%) 34.1%,
-    hsl(259.74, 70.37%, 21.18%) 40.4%,
-    hsl(265.6, 70.09%, 20.98%) 46.6%,
-    hsl(271.62, 69.81%, 20.78%) 52.7%,
-    hsl(276.99, 69.52%, 20.59%) 58.9%,
-    hsl(281.92, 69.52%, 20.59%) 65.2%,
-    hsl(286.67, 69.23%, 20.39%) 71.6%,
-    hsl(291.55, 68.93%, 20.2%) 78.3%,
-    hsl(294.86, 68.63%, 20%) 85.2%,
-    hsl(296.57, 68.63%, 20%) 92.4%,
-    hsl(297.43, 68.63%, 20%) 100%);
-
-  /* background: -webkit-gradient(linear, -45deg, #000059, #0c0634, #1b0736, #2e0444, #43047c); */
+    #101160 0%,
+    #101060 7.4%,
+    #131060 14.5%,
+    #17105f 21.2%,
+    #1c105e 27.8%,
+    #23105d 34.1%,
+    #29105c 40.4%,
+    #30105b 46.6%,
+    #37105a 52.7%,
+    #3d1059 58.9%,
+    #431059 65.2%,
+    #481058 71.6%,
+    #4d1057 78.3%,
+    #501056 85.2%,
+    #521056 92.4%,
+    #531056 100%);
 
   background: -webkit-linear-gradient(to bottom right,
-    hsl(239.25, 71.43%, 21.96%) 0%,
-    hsl(240, 71.43%, 21.96%) 7.4%,
-    hsl(242.25, 71.43%, 21.96%) 14.5%,
-    hsl(245.32, 71.17%, 21.76%) 21.2%,
-    hsl(249.23, 70.91%, 21.57%) 27.8%,
-    hsl(254.81, 70.64%, 21.37%) 34.1%,
-    hsl(259.74, 70.37%, 21.18%) 40.4%,
-    hsl(265.6, 70.09%, 20.98%) 46.6%,
-    hsl(271.62, 69.81%, 20.78%) 52.7%,
-    hsl(276.99, 69.52%, 20.59%) 58.9%,
-    hsl(281.92, 69.52%, 20.59%) 65.2%,
-    hsl(286.67, 69.23%, 20.39%) 71.6%,
-    hsl(291.55, 68.93%, 20.2%) 78.3%,
-    hsl(294.86, 68.63%, 20%) 85.2%,
-    hsl(296.57, 68.63%, 20%) 92.4%,
-    hsl(297.43, 68.63%, 20%) 100%);
+    #101160 0%,
+    #101060 7.4%,
+    #131060 14.5%,
+    #17105f 21.2%,
+    #1c105e 27.8%,
+    #23105d 34.1%,
+    #29105c 40.4%,
+    #30105b 46.6%,
+    #37105a 52.7%,
+    #3d1059 58.9%,
+    #431059 65.2%,
+    #481058 71.6%,
+    #4d1057 78.3%,
+    #501056 85.2%,
+    #521056 92.4%,
+    #531056 100%);
 
   background: -o-linear-gradient(to bottom right,
-    hsl(239.25, 71.43%, 21.96%) 0%,
-    hsl(240, 71.43%, 21.96%) 7.4%,
-    hsl(242.25, 71.43%, 21.96%) 14.5%,
-    hsl(245.32, 71.17%, 21.76%) 21.2%,
-    hsl(249.23, 70.91%, 21.57%) 27.8%,
-    hsl(254.81, 70.64%, 21.37%) 34.1%,
-    hsl(259.74, 70.37%, 21.18%) 40.4%,
-    hsl(265.6, 70.09%, 20.98%) 46.6%,
-    hsl(271.62, 69.81%, 20.78%) 52.7%,
-    hsl(276.99, 69.52%, 20.59%) 58.9%,
-    hsl(281.92, 69.52%, 20.59%) 65.2%,
-    hsl(286.67, 69.23%, 20.39%) 71.6%,
-    hsl(291.55, 68.93%, 20.2%) 78.3%,
-    hsl(294.86, 68.63%, 20%) 85.2%,
-    hsl(296.57, 68.63%, 20%) 92.4%,
-    hsl(297.43, 68.63%, 20%) 100%);
+    #101160 0%,
+    #101060 7.4%,
+    #131060 14.5%,
+    #17105f 21.2%,
+    #1c105e 27.8%,
+    #23105d 34.1%,
+    #29105c 40.4%,
+    #30105b 46.6%,z
+    #37105a 52.7%,
+    #3d1059 58.9%,
+    #431059 65.2%,
+    #481058 71.6%,
+    #4d1057 78.3%,
+    #501056 85.2%,
+    #521056 92.4%,
+    #531056 100%);
+    
   background-size: 250% 250%;
   animation: gradientBG 7s cubic-bezier(.55, .01, .43, .99) infinite;
   padding-bottom: 5px;
@@ -105,6 +104,7 @@ body {
   background: -o-linear-gradient(left, #c70039, #ff5733 40%);
   background: linear-gradient(to right, #c70039, #ff5733 40%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: left;
   font-size: 100px;
@@ -153,6 +153,7 @@ p {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 7px;
   font-size: 40px;
@@ -165,16 +166,30 @@ p {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 21px;
   margin-top: 0px;
   margin-bottom: 25px;
   text-decoration: none;
+  -webkit-transition: background .3s linear;
+  -moz-transition: background .3s linear;
+  -ms-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
 }
 
 .head-small-desc a {
   text-decoration: none;
 }
+
+.head-small-desc:hover {
+  background: #ff5733;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
 
 .lower-body {
   background: -webkit-gradient(linear, #07061e, #090524, #010126, #040117, #020111);
@@ -183,7 +198,7 @@ p {
   background: linear-gradient(#07061e, #090524, #010126, #040117, #020111);
   padding-top: 30px;
   padding-bottom: 50px;
-  background-size: 800% 800%;
+  background-size: 400% 400%;
 }
 
 
@@ -196,6 +211,7 @@ p {
     background: -o-linear-gradient(left, #c70039, #ff5733 80%);
     background: linear-gradient(to right, #c70039, #ff5733 80%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 75px;
     padding-bottom: 35px;
@@ -230,6 +246,7 @@ p {
   .header-note {
     background: #979797;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 25px;
     font-weight: 400;
@@ -250,11 +267,11 @@ p {
     background: -o-linear-gradient(left, #c70039, #ff5733 40%);
     background: linear-gradient(to right, #c70039, #ff5733 40%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: left;
     font-size: 100px;
     padding-left: 40px;
-    padding-top: 10vw;
   }
 }
 
@@ -277,6 +294,10 @@ p {
   .head-small-desc {
     padding-left: 160px;
   }
+
+  .header {
+    padding-top: 8vw;
+  }
 }
 
 @media (max-width: 1020px) and (min-width: 642px) {
@@ -297,6 +318,15 @@ p {
 
   .head-small-desc {
     padding-left: 60px;
+  }
+
+  .header {
+    font-size: 90px;
+    padding-top: 12vw;
+  }
+
+  .header-note {
+    font-size: 90px;
   }
 }
 
