@@ -206,7 +206,7 @@ p {
 
 .line-low {
   border: 0;
-  height: 5px;
+  height: 7px;
   background: -webkit-gradient(linear, left top, right top, from(#880027), color-stop(90%, #962d15));
   background: -webkit-linear-gradient(left, #880027, #962d15 90%);
   background: -o-linear-gradient(left, #880027, #962d15 90%);
@@ -243,6 +243,23 @@ p {
     padding-bottom: 35px;
     padding-top: 30px;
     text-align: center;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .header-note {
+    background: #979797;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 4%;
+    padding-right: 4%;
+    line-height: none;
+    letter-spacing: 3.5px;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: lowercase;
   }
 
   p {
@@ -267,22 +284,6 @@ p {
 
   .head-small-desc {
     padding-left: 40px;
-  }
-
-  .header-note {
-    background: #979797;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 25px;
-    font-weight: 400;
-    padding-left: 4%;
-    padding-right: 4%;
-    line-height: none;
-    letter-spacing: 4px;
-    text-align: center;
-    padding-bottom: 50px;
-
   }
 
   .banner {
