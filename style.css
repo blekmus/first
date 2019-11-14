@@ -200,8 +200,31 @@ p {
   background: -o-linear-gradient(#07061e, #090524, #010126, #040117, #020111);
   background: linear-gradient(#07061e, #090524, #010126, #040117, #020111);
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   background-size: 400% 400%;
+}
+
+.line-low {
+  border: 0;
+  height: 5px;
+  background: -webkit-gradient(linear, left top, right top, from(#880027), color-stop(90%, #962d15));
+  background: -webkit-linear-gradient(left, #880027, #962d15 90%);
+  background: -o-linear-gradient(left, #880027, #962d15 90%);
+  background: linear-gradient(to right, #880027, #962d15 90%);
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.banner {
+  background-image: url('some.png');
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -261,6 +284,12 @@ p {
     padding-bottom: 50px;
 
   }
+
+  .banner {
+    height: 250px;
+    background-size: 165%;
+    background-image: url('some2.png');
+  }
 }
 
 @media (min-width: 642px) {
@@ -302,6 +331,10 @@ p {
   .header {
     padding-top: 7.4vw;
   }
+
+  .lower-body {
+    padding-bottom: 100px;
+  }
 }
 
 @media (max-width: 1020px) and (min-width: 642px) {
@@ -331,6 +364,12 @@ p {
 
   .header-note {
     font-size: 85px;
+  }
+
+  .banner {
+    height: 300px;
+    background-size: 120%;
+    background-image: url('some2.png');
   }
 }
 
