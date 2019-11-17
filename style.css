@@ -200,7 +200,7 @@ p {
   background: -o-linear-gradient(#07061e, #090524, #010126, #040117, #020111);
   background: linear-gradient(#07061e, #090524, #010126, #040117, #020111);
   padding-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 4vw;
   background-size: 400% 400%;
 }
 
@@ -220,7 +220,7 @@ p {
 
 .banner {
   background-image: url('some.png');
-  height: 300px;
+  height: 20vw;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -275,7 +275,7 @@ p {
 
   .line {
     margin-left: 38px;
-    margin-right: 25%;
+    margin-right: 40%;
   }
 
   .head-small {
@@ -287,9 +287,13 @@ p {
   }
 
   .banner {
-    height: 250px;
-    background-size: 165%;
+    height: 49vw;
+    background-size: 170%;
     background-image: url('some2.png');
+  }
+
+  .lower-body {
+    padding-bottom: 6vw;
   }
 }
 
@@ -311,30 +315,30 @@ p {
 
 @media (min-width: 1021px) {
   p {
-    padding-left: 160px;
-    padding-right: 220px;
+    padding-left: 13vw;
+    padding-right: 18vw;
     line-height: 31px;
   }
 
   .line {
-    margin-left: 163px;
+    margin-left: 13vw;
     margin-right: 70%;
   }
 
   .head-small {
-    padding-left: 160px;
+    padding-left: 13vw;
   }
 
   .head-small-desc {
-    padding-left: 160px;
+    padding-left: 13vw;
   }
 
   .header {
-    padding-top: 7.4vw;
+    padding-top: 8vw;
   }
 
   .lower-body {
-    padding-bottom: 100px;
+    padding-bottom: 4vw;
   }
 }
 
@@ -360,7 +364,7 @@ p {
 
   .header {
     font-size: 95px;
-    padding-top: 12.6vw;
+    padding-top: 17vw;
   }
 
   .header-note {
@@ -368,9 +372,8 @@ p {
   }
 
   .banner {
-    height: 300px;
-    background-size: 120%;
-    background-image: url('some2.png');
+    height: 28vw;
+    background-size: 115%;
   }
 }
 
