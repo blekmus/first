@@ -195,10 +195,7 @@ p {
 
 
 .lower-body {
-  background: -webkit-gradient(linear, #07061e, #090524, #010126, #040117, #020111);
-  background: -webkit-linear-gradient(#07061e, #090524, #010126, #040117, #020111);
-  background: -o-linear-gradient(#07061e, #090524, #010126, #040117, #020111);
-  background: linear-gradient(#07061e, #090524, #010126, #040117, #020111);
+  background-color: #07061e;
   padding-top: 30px;
   padding-bottom: 4vw;
   background-size: 400% 400%;
@@ -219,7 +216,7 @@ p {
 }
 
 .banner {
-  background-image: url('some.png');
+  background-image: url('banner-desktop.png');
   height: 20vw;
   width: 100%;
   background-position: center;
@@ -289,7 +286,8 @@ p {
   .banner {
     height: 55vw;
     background-size: 200%;
-    background-image: url('some2.png');
+    background-image: url('banner-mobile.png');
+    padding-bottom: 6vw;
   }
 
   .lower-body {
