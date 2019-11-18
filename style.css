@@ -287,8 +287,8 @@ p {
   }
 
   .banner {
-    height: 49vw;
-    background-size: 170%;
+    height: 55vw;
+    background-size: 200%;
     background-image: url('some2.png');
   }
 
