@@ -8,14 +8,14 @@ body, html {
 .image-container {
     display: flex;
     justify-content: center;
-    padding-top: 10vh;
-    margin: 0;
+}
+
+#image {
+    transform: scale(0.6);
 }
 
 .head {
-    color: white;
     text-align: center;
-    padding-top: 17vh;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
       background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(85%, #1279e8));
@@ -30,39 +30,55 @@ body, html {
     font-size: 40px;
 }
 
-@media (min-height: 700px) and (max-height: 1499px){
+
+@media (min-width: 1000px) {
+    #image {
+        transform: scale(0.45);
+    }
+
     .image-container {
-        padding-top: 135px;
+        margin: -100px;
     }
 
     .head {
-        padding-top: 30vh;
-        font-size: 11vw;
+        padding-top: 0;
+    }
+}
+
+
+@media (min-height: 700px) and (max-height: 1499px){
+    .image-container {
+        padding-top: 0;
+    }
+
+    .head {
+        padding-top: 20vh;
+        font-size: 10vw;
     }
     
     #image{
-        transform: scale(2);
+        transform: scale(1);
     }
 }
 
 @media (min-height: 1500px) {
     .image-container {
-        padding-top: 190px;
+        padding-top: 60px;
     }
 
     .head {
-        padding-top: 30vh;
+        padding-top: 25vh;
         font-size: 11vw;
     }
     
     #image{
-        transform: scale(2.4);
+        transform: scale(1.2);
     }
 }
 
 @media (max-width: 480px) {
     .image-container {
-        padding-top: 6vh;
+        padding-top: 20px;
     }
 
     .head {
@@ -71,6 +87,6 @@ body, html {
     }
     
     #image{
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
 }
