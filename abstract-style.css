@@ -1,12 +1,44 @@
 body, html {
-    height: 100%;
     background-color: black;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
-#bg {
-    min-width: 100vw;
-    min-height: 100vw;
-    background-size: 100%;
+.image-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    margin: 0;
+}
+
+.head {
+    color: white;
+    text-align: center;
+    padding-top: 17vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+      background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(85%, #1279e8));
+    background: -webkit-linear-gradient(left, #c70039, #1279e8 85%);
+    background: -o-linear-gradient(left, #c70039, #1279e8 85%);
+    background: linear-gradient(to right, #c70039, #1279e8 85%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+@media (max-width: 480px) {
+    .image-container {
+        padding-top: 6vh;
+    }
+
+    .head {
+        padding-top: 27vh;
+    }
+    
+    #image{
+        transform: scale(1.5);
+    }
 }
