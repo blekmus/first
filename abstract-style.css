@@ -63,7 +63,7 @@ body, html {
 
 @media (min-height: 1500px) {
     .image-container {
-        padding-top: 60px;
+        padding-top: 40px;
     }
 
     .head {
